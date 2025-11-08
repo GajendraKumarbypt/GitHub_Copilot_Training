@@ -1,0 +1,49 @@
+# Node
+node_modules/
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# Env files
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Coverage
+coverage/
+coverage/*
+.lcov-report/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+
+# Misc
+.nyc_output/
+.eslintcache
+.pnp.*
+
+# Vite cache
+node_modules/.vite/
+
+# TypeScript
+*.tsbuildinfo
+
+# other
+.sass-cache
+
