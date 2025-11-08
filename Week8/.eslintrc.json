@@ -1,0 +1,12 @@
+{
+  "extends": ["react-app", "eslint:recommended"],
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "rules": {
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "react/prop-types": "off"
+  }
+}
