@@ -1,0 +1,18 @@
+{
+  "name": "week6-utils",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Modular utility libraries for Week6 exercise",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage --runInBand",
+    "lint": "echo 'no lint configured'"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
